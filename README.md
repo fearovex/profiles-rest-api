@@ -65,4 +65,22 @@ Profiles REST API made in Python and DJANGO framework.
   python manage.py runserver 0.0.0.0:8000
 ```
 
+## Create models
+> Docs: https://docs.djangoproject.com/en/1.11/ref/models/fields/
+> Docs: https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#auth-custom-user
+> Docs: https://peps.python.org/pep-0008/
+
+- Create User Profile model
+- Create User Manager Profile
+
+## Migrations
+
+- Run in Python env
+
+```sh
+  python manage.py makemigrations profiles_api
+```
+
+
+
 
