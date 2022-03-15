@@ -81,6 +81,37 @@ Profiles REST API made in Python and DJANGO framework.
   python manage.py makemigrations profiles_api
 ```
 
+- Run migrations 
+
+```sh
+  python manage.py migrate
+```
+
+## create Super User
+
+- Run Python env
+
+```sh
+  python manage.py createsuperuser
+```
+
+- PW: 123456
+
+## Register Model
+
+- in admin.py register model to visibility in admin page
+
+```sh
+  admin.site.register(models.UserProfile)
+```
+
+## Test Admin Page
+
+- Run Server
+
+```sh
+  python manage.py runserver 0.0.0.0:8000
+```
 
 
 
