@@ -113,5 +113,22 @@ Profiles REST API made in Python and DJANGO framework.
   python manage.py runserver 0.0.0.0:8000
 ```
 
+- Login with admin user
+- Check User Profiles Model in admin page
+
+## Django REST Framework Views
+**APIView**
+When do you use?
+- Need full control over logic
+- Processing files and rendering a synchronous response
+- You are calling other APIs/services
+- Accesing local files or data
+
+**ViewSet**
+When do you use?
+-
+
+
+
 
 
