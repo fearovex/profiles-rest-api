@@ -134,6 +134,22 @@ When do you use?
 - Working with standar data structures
 
 
+## Create new model
+
+- Create new class model in models.py
+
+```sh
+  python manage.py makemigrations
+  python manage.py migrate
+```
+- Register model in admin.py file
+- Create serielizer for new model
+- Create ViewSet for new model
+- Create Router
+- Add permissions
+- 
+
+
 
 
 
