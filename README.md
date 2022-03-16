@@ -126,7 +126,12 @@ When do you use?
 
 **ViewSet**
 When do you use?
--
+- Take care a lot of typicalk logic for you
+- Perfect for standard database operations
+- Fastest interface for a database
+- A simple CRUD interface to your database
+- a quick and simnple API
+- Working with standar data structures
 
 
 

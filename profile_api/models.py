@@ -6,7 +6,7 @@ from django.db import models
 class UserProfileManager(BaseUserManager):
     """Manager for user profiles"""
 
-    def create_user_profile(self, email, name, password=None):
+    def create_user(self, email, name, password=None):
         """Creates a new user profile object."""
 
         if not email:
@@ -23,7 +23,7 @@ class UserProfileManager(BaseUserManager):
     def create_superuser(self, email, name, password):
         """Creates and saves a new superuser with given details."""
 
-        user = self.create_user_profile(email, name, password)
+        user = self.create_user(email, name, password)
 
         user.is_superuser = True
         user.is_staff = True
