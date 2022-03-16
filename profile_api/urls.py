@@ -9,5 +9,6 @@ router.register('profile', views.UserProfileViewSet)
 
 urlpatterns = [
     path('test-view/', views.HellAPIView.as_view()),
+    path('login/', views.UserLoginApiView.as_view()),
     path('', include(router.urls)),
 ]
